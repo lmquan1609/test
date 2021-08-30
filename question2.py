@@ -68,5 +68,3 @@ def split_string(s : str) -> bool:
 
     # Start backtracking from 0 index
     return dfs(0)
-
-print(split_string('1234'))
